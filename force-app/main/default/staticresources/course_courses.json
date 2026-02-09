@@ -1,0 +1,31 @@
+[
+  { "name":"Sales Cloud Fundamentals 101", "code":"SLS-101", "capacity":30, "trainerIndex":0 },
+  { "name":"Sales Cloud Advanced 301",     "code":"SLS-301", "capacity":25, "trainerIndex":0 },
+
+  { "name":"Service Cloud Fundamentals 101","code":"SVC-101", "capacity":30, "trainerIndex":1 },
+  { "name":"Service Cloud Advanced 301",    "code":"SVC-301", "capacity":25, "trainerIndex":1 },
+
+  { "name":"Marketing Cloud Engagement 101","code":"MKT-101", "capacity":30, "trainerIndex":2 },
+  { "name":"Marketing Cloud Journeys 201",  "code":"MKT-201", "capacity":25, "trainerIndex":2 },
+
+  { "name":"Commerce Cloud B2C 101",         "code":"COM-101", "capacity":30, "trainerIndex":3 },
+  { "name":"Commerce Cloud B2B 201",         "code":"COM-201", "capacity":25, "trainerIndex":3 },
+
+  { "name":"Experience Cloud Basics 101",   "code":"EXP-101", "capacity":30, "trainerIndex":4 },
+  { "name":"Experience Cloud Advanced 301", "code":"EXP-301", "capacity":25, "trainerIndex":4 },
+
+  { "name":"Data Cloud Fundamentals 101",   "code":"DAT-101", "capacity":30, "trainerIndex":5 },
+  { "name":"Data Cloud Advanced 301",       "code":"DAT-301", "capacity":25, "trainerIndex":5 },
+
+  { "name":"Revenue Cloud CPQ 101",         "code":"REV-101", "capacity":30, "trainerIndex":6 },
+  { "name":"Revenue Cloud CPQ Advanced 301","code":"REV-301", "capacity":25, "trainerIndex":6 },
+
+  { "name":"MuleSoft Integration Basics 101","code":"MUL-101", "capacity":30, "trainerIndex":7 },
+  { "name":"MuleSoft API Design 201",        "code":"MUL-201", "capacity":25, "trainerIndex":7 },
+
+  { "name":"Industries Cloud Overview 101", "code":"IND-101", "capacity":30, "trainerIndex":8 },
+  { "name":"Field Service Lightning 101",   "code":"FSL-101", "capacity":25, "trainerIndex":8 },
+
+  { "name":"Agentforce Fundamentals 101",   "code":"AGT-101", "capacity":30, "trainerIndex":9 },
+  { "name":"Agentforce Advanced Automation 301","code":"AGT-301","capacity":25,"trainerIndex":9 }
+]

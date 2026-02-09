@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expertise_Area__c</fullName>
+    <description>Primary subject matter expertise of a trainer used for course-to-trainer mapping.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the trainer’s core expertise (e.g., Salesforce Admin, Apex, LWC, Data Modeling).</inlineHelpText>
+    <label>Expertise Area</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

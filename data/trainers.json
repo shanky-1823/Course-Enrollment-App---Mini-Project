@@ -1,0 +1,12 @@
+[
+  {"firstName":"Alex","lastName":"Morgan","email":"alex.morgan@training.example","level":"Professional"},
+  {"firstName":"Jordan","lastName":"Lee","email":"jordan.lee@training.example","level":"Associate"},
+  {"firstName":"Taylor","lastName":"Brown","email":"taylor.brown@training.example","level":"Specialist"},
+  {"firstName":"Chris","lastName":"Anderson","email":"chris.anderson@training.example","level":"Professional"},
+  {"firstName":"Sam","lastName":"Wilson","email":"sam.wilson@training.example","level":"Associate"},
+  {"firstName":"Jamie","lastName":"Clark","email":"jamie.clark@training.example","level":"Professional"},
+  {"firstName":"Morgan","lastName":"Hall","email":"morgan.hall@training.example","level":"Specialist"},
+  {"firstName":"Riley","lastName":"Scott","email":"riley.scott@training.example","level":"Associate"},
+  {"firstName":"Casey","lastName":"Turner","email":"casey.turner@training.example","level":"Professional"},
+  {"firstName":"Avery","lastName":"Parker","email":"avery.parker@training.example","level":"Specialist"}
+]
