@@ -8,8 +8,8 @@ Prerequisites
 
 1) Org setup (clone and authenticate)
 - Clone and change directory:
-  - git clone <Github Repo URL>
-  - cd "<your-repo>"
+  - git clone https://github.com/shanky-1823/Course-Enrollment-App---Mini-Project
+  - cd "https://github.com/shanky-1823/Course-Enrollment-App---Mini-Project"
 
 - Authenticate to an org (choose one):
   - Directly to a developer org:
@@ -31,8 +31,8 @@ There are two reliable ways to run the data loader logic:
 
 A) Run an Apex script that invokes your loader class (recommended)
 - Create scripts/apex/hello.apex (example) that calls your entry method:
-  - CourseAppDataLoader.loadAll(); // Example – adjust to your class’s public entry method
-
+  - CourseAppDataLoader.loadAll(); 
+  
 B) Execute Apex inline
 - If your class exposes a static entry method:
   - sf apex run --target-org CourseApp --apex "CourseAppDataLoader.loadAll();"
