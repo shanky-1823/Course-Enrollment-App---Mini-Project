@@ -25,5 +25,6 @@
   },
   "prettier.configPath": "${workspaceFolder}/.prettierrc",
   "prettier.requireConfig": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "xml.preferences.showSchemaDocumentationType": "none"
 }

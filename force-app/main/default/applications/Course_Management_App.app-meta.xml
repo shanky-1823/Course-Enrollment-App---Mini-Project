@@ -11,6 +11,7 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Course Management App</label>
     <navType>Standard</navType>
+    <tabs>Course_App_Manager</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Course__c</tabs>
     <tabs>Course_Enrolment__c</tabs>

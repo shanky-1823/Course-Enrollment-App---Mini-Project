@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Is_Active__c</fullName>
-    <defaultValue>true</defaultValue>
+    <defaultValue>false</defaultValue>
     <description>Indicates if the enrolment is currently active for tracking purposes.</description>
     <inlineHelpText>Checked by default for active enrolments; uncheck for inactive records.</inlineHelpText>
     <label>Is Active</label>

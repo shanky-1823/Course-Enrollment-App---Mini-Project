@@ -13,7 +13,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Enrolled</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>Enrolled</label>
             </value>
             <value>
