@@ -23,11 +23,10 @@ Prerequisites
 If your project contains a permission set (e.g., Course_App_Admin or Course_App_User), run:
 - sf org assign permset --name <Permission_Set_API_Name> --target-org <alias-or-username>
 
-Examples:
+The command that you need to execute:
 - sf org assign permset --name Course_Enrollment_App_User --target-org CourseApp
 
 4) Data load via CourseAppDataLoader Apex class
-There are two reliable ways to run the data loader logic:
 
 A) Run an Apex script that invokes your loader class (recommended)
 - Create scripts/apex/hello.apex (example) that calls your entry method:
@@ -36,29 +35,15 @@ A) Run an Apex script that invokes your loader class (recommended)
 B) Static resources note
 Read the JSONs in the data folder that are used as static resources. The CourseAppDataLoader Apex class reads the data from Static Resources (course_attendees.json, course_courses.json, course_enrolments.json, course_trainers.json), make sure those are deployed (they are under force-app/main/default/staticresources). After deployment, run the entry method as shown above.
 
-5) Optional alternative: Data import plan
-If you prefer a non-Apex import for sample data, provide a data import plan (CSV/JSON) and use:
-- sf data import tree --plan data/plan.json --target-org CourseApp
 
-6) Post-deployment verification
+5) Post-deployment verification
 - Open the org:
   - sf org open --target-org CourseApp
 
 - Verify the app and tabs:
   - Open the Course Management App
-  - Review Course__c, Course_Enrolment__c, and Contact list views and layouts
+  - Review Course__c, Course_Enrolment__c, and Contact list views and layouts. Also the Course App Manager page as well.
 
 - Optional quick SOQL checks:
   - sf data query --query "SELECT Id, Name, Course_Code__c FROM Course__c LIMIT 10" --target-org CourseApp
   - sf data query --query "SELECT Id, Name, Status__c FROM Course_Enrolment__c LIMIT 10" --target-org CourseApp
-
-
-
-- Quick Start:
-  - git clone https://github.com/<your-org-or-user>/<your-repo>.git
-  - cd "<your-repo>"
-  - sf org create scratch --definition-file config/project-scratch-def.json --alias CourseApp --set-default
-  - sf project deploy start --target-org CourseApp
-  - sf org assign permset --name Course_Enrollment_App_User --target-org CourseApp
-  - sf apex run --file scripts/apex/loadCourseData.apex --target-org CourseApp
-  - sf org open --target-org CourseApp
