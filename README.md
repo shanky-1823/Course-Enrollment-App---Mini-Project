@@ -20,8 +20,6 @@ Prerequisites
   - sf project deploy start
 
 3) Assign permission set(s)
-If your project contains a permission set (e.g., Course_App_Admin or Course_App_User), run:
-- sf org assign permset --name <Permission_Set_API_Name> --target-org <alias-or-username>
 
 The command that you need to execute:
 - sf org assign permset --name Course_Enrollment_App_User --target-org CourseApp
