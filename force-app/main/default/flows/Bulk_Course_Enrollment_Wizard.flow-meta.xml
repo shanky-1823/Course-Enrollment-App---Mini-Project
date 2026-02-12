@@ -29,13 +29,6 @@
                 <elementReference>Select_a_Course</elementReference>
             </value>
         </assignmentItems>
-        <assignmentItems>
-            <assignToReference>varOutputCourseEnrollments</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>recordCourseEnrollment</elementReference>
-            </value>
-        </assignmentItems>
         <connector>
             <targetReference>Loop010_Loop_through_selected_Attendees</targetReference>
         </connector>
